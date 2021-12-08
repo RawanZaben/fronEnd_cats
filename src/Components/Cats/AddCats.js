@@ -54,7 +54,7 @@ export default function AddCats(props) {
         <form id="form" className="form">
           <h2>إضافة قط للتبني </h2>
           <div className="form-control">
-            <label for="eamil"> أسم القط </label>
+            <label> أسم القط </label>
             <input
               onChange={(e) => {
                 changeNameVal(e);

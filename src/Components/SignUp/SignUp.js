@@ -39,7 +39,7 @@ export default function SignUp() {
         <form id="form" className="form">
           <h2>تسجيل </h2>
           <div className="form-control">
-            <label for="username">اسم المستخدم </label>
+            <label >اسم المستخدم </label>
             <input
               onChange={(e) => {
                 changeName(e);
@@ -50,18 +50,18 @@ export default function SignUp() {
             />
           </div>
           <div className="form-control">
-            <label for="eamil">بريد إلكتروني</label>
+            <label >بريد إلكتروني</label>
             <input
               onChange={(e) => {
                 changeEmail(e);
               }}
-              type="email"
+              type="text"
               id="email"
               placeholder="Enter eamil"
             />
           </div>
           <div className="form-control">
-            <label for="passowrd">كلمة المرور</label>
+            <label >كلمة المرور</label>
             <input
               onChange={(e) => {
                 changePassword(e);
