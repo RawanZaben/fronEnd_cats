@@ -65,7 +65,7 @@ export default function AddCats(props) {
             />{" "}
           </div>
           <div className="form-control">
-            <label for="passowrd"> نوع القط </label>
+            <label> نوع القط </label>
             <input
               onChange={(e) => {
                 changetypeVal(e);
@@ -77,18 +77,18 @@ export default function AddCats(props) {
           </div>
 
           <div className="form-control">
-            <label for="passowrd"> عمر القط</label>
+            <label> عمر القط</label>
             <input
               onChange={(e) => {
                 changeageVal(e);
               }}
-              type="number"
+              type="text"
               id="text"
               placeholder="أدخل عمر القط"
             />
           </div>
           <div className="form-control">
-            <label for="passowrd">جنس القط</label>
+            <label>جنس القط</label>
             <input
               onChange={(e) => {
                 changegenderVal(e);
@@ -99,7 +99,7 @@ export default function AddCats(props) {
             />
           </div>
           <div className="form-control">
-            <label for="passowrd"> معلومات عن القط</label>
+            <label> معلومات عن القط</label>
             <input
               onChange={(e) => {
                 changeDescVal(e);
@@ -111,7 +111,7 @@ export default function AddCats(props) {
           </div>
 
           <div className="form-control">
-            <label for="passowrd"> صوره القط </label>
+            <label> صوره القط </label>
             <input
               onChange={(e) => {
                 changeImgVal(e);
