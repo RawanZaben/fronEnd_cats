@@ -5,7 +5,7 @@ import "./Home.css"
 export default function Navbar() {
     return (
      <div>
-         <section class="curved">
+         <section className="curved">
 
          <section id="main">
                   

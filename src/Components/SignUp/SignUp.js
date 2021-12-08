@@ -35,7 +35,7 @@ export default function SignUp() {
     }
   };
   return (
-    <div classNameName="divS"> 
+    <div className="divS"> 
 
 
 

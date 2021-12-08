@@ -26,6 +26,7 @@ export default function Nav({ token, setToken }) {
         <ul>
           <li>
             <Link className="link" to="/login"  onClick={() =>{setToken()}}> تسجيل دخول </Link>
+            <Link   to="/Cats">قطط للتبني </Link>
 
           </li>
         
