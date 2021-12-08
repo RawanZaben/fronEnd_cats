@@ -48,7 +48,7 @@ export default function SignUp() {
             </div>
             <div className="form-control">
                 <label for="eamil">بريد إلكتروني</label>
-                <input onChange={(e) => { changeEmail(e); }}  type="email" id="email" placeholder="Enter eamil" />
+                <input onChange={(e) => { changeEmail(e); }}  type="text" id="email" placeholder="Enter eamil" />
             </div>
             <div className="form-control">
                 <label for="passowrd">كلمة المرور</label>

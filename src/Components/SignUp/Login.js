@@ -42,8 +42,8 @@ export default function SignUp({setToken}) {
             <h2>تسجيل الدخول  </h2>
         
             <div className="form-control">
-                <label >بريد إلكتروني</label>
-                <input onChange={(e) => { changeEmail(e); }}    type="email" id="email" placeholder="Enter eamil" />
+                <label>بريد إلكتروني</label>
+                <input onChange={(e) => { changeEmail(e); }}    type="text" id="email" placeholder="Enter eamil" />
             </div>
             <div className="form-control">
                 <label for="passowrd">كلمة المرور</label>
