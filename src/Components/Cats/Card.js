@@ -8,7 +8,7 @@ export default function Card({token}) {
     const {id} = useParams()
     useEffect(async () => {
         console.log(id,"id");
-        const res = await axios.get(`http://localhost:5000/card/${id}`,{
+        const res = await axios.get(`https://cats-tuwaiqb.herokuapp.com/card/${id}`,{
             headers: { authorization: "Bearer " + token }
         });
       console.log(res.data);

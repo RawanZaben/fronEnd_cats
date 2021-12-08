@@ -18,7 +18,7 @@ export default function SignUp({setToken}) {
   
     const checkLogin = async () => {
       try {
-        const response = await axios.post("http://localhost:5000/login", {
+        const response = await axios.post("https://cats-tuwaiqb.herokuapp.com/login", {
           email: email,
           password: password,
         });
