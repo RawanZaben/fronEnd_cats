@@ -65,31 +65,31 @@ export default function AddCats(props) {
 </div>
 
 <div class="container">
-        <form id="form" class="form">
+        <form id="form" className="form">
             <h2>إضافة قط للتبني </h2>
             <div class="form-control">
                 <label for="eamil"> أسم القط </label>
                 <input onChange={(e) => { changeNameVal(e); }}    type="text" id="text" placeholder=" أدخل أسم للقط  " />{" "}
             </div>
-            <div class="form-control">
+            <div className="form-control">
                 <label for="passowrd"> نوع القط </label>
                 <input onChange={(e) => {    changetypeVal(e);  }}type="text" id="text" placeholder="أدخل نوع القط" />
             </div>
            
-            <div class="form-control">
+            <div className="form-control">
                 <label for="passowrd"> عمر القط</label>
                 <input onChange={(e) => {    changeageVal(e);  }}type="number" id="text" placeholder="أدخل عمر القط" />
             </div>
-            <div class="form-control">
+            <div className="form-control">
                 <label for="passowrd">جنس القط</label>
                 <input onChange={(e) => {    changegenderVal(e);  }}type="text" id="text" placeholder="أدخل جنس القط (ذكر - أنثى)" />
             </div>
-            <div class="form-control">
+            <div className="form-control">
                 <label for="passowrd"> معلومات عن القط</label>
                 <input onChange={(e) => {    changeDescVal(e);  }}type="text" id="text" placeholder="أدخل معلومات أكثر عن القط" />
             </div>
     
-            <div class="form-control">
+            <div className="form-control">
                 <label for="passowrd">  صوره القط </label>
                 <input onChange={(e) => {    changeImgVal(e);  }}type="text" id="text" placeholder="أدخل رابط اصوره القط" />
             </div>

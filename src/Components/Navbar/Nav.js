@@ -8,7 +8,7 @@ export default function Nav({ token, setToken }) {
 
     return (
   
-      <div  class="topnav">
+      <div  className="topnav">
       {token ? (
         <ul>
       
